@@ -20,10 +20,9 @@ Three distinct versions are provided to match your preferred modding workflow. C
 **File:** `SpawnOrdinance.lua`  
 **Best for:** Users who want a ready-made GUI menu with zero configuration.
 
-1. Place `SpawnOrdinance.lua` in your Ferdi's menu `mods/` or `scripts/` directory.
-2. Ensure Ferdi's loader is set to auto-scan for `menu:category` definitions (default behavior).
-3. Launch the game, open Ferdi's menu, and navigate to **Ordnance Drops**.
-4. All functions are wrapped as `local`, making this a self-contained, drop-and-play script.
+1. Paste the contents of SpawnOrdinance.lua into Ferdi's menu
+2. Launch the game, open Ferdi's menu, and navigate to **Ordnance Drops**.
+3. All functions are wrapped as `local`, making this a self-contained, drop-and-play script.
 
 ### 🔹 Method 2: ESS OnLoad Framework (Global API)
 **File:** `SpawnOrdinanceFunctions.lua`  
