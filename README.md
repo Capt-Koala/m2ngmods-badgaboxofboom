@@ -103,5 +103,5 @@ end)
 ## 🙏 Credits & Disclaimer
 - Built for the **Essential Mod (Ess) v0.3.0** framework
 - FX synchronization & detonation timing tuned for cinematic accuracy
-- Huge thanks to Wally, Ferdi, Cos, and the M2/BO modding community for their time and contributions
+- Huge thanks to Wally, Ferdi, Cos, and the M2/menace.pro modding community for their time and contributions
 - **Disclaimer:** This mod is for single-player/freeplay use only, not intended for competitive or networked play do so at your own risk. May cause unexpected behavior in heavily modded environments. Use irresponsibly and enjoy the firepower.
