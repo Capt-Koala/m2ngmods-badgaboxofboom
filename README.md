@@ -7,7 +7,7 @@ Adds a comprehensive, FX-synced(mostly) ordnance drop system featuring tactical 
 
 ## ⚙️ Requirements
 - **Essential Mod (Ess) Framework v0.3.0+**
-- *Mercenaries 2: World in Flames* or *Black Ops*
+- *Mercenaries 2: World in Flames*
 - Ferdi's AIO Menu (optional, recommended for GUI access)
 
 ---
