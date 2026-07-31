@@ -1,4 +1,4 @@
-# 📦 Badga's Box of Boom (Ess v0.3.0)
+# 📦 Badga's Box of Boom (Ess v0.3.0+)
 **A synchronized airstrike & ordnance spawning system for *Mercenaries 2*
 
 Adds a comprehensive, FX-synced(mostly) ordnance drop system featuring tactical nukes, fuel-air bombs, cluster munitions, cruise missiles, artillery, and more. All detonations are mathematically timed and vertically locked to the projectile's actual impact point for cinematic accuracy(except nukes those are near instant and still have issues to fix).
