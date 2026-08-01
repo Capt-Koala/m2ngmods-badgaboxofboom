@@ -17,18 +17,18 @@ Adds a comprehensive, FX-synced(mostly) ordnance drop system featuring tactical 
 Three distinct versions are provided to match your preferred modding workflow. Choose the one that fits your setup:
 
 ### 🔹 Method 1: Ferdi's AIO Menu (Drop-in Script)
-**File:** `SpawnOrdinance.lua`  
+**File:** `SpawnOrdnance.lua`  
 **Best for:** Users who want a ready-made GUI menu with zero configuration.
 
-1. Paste the contents of SpawnOrdinance.lua into Ferdi's menu
+1. Paste the contents of SpawnOrdnance.lua into Ferdi's menu
 2. Launch the game, open Ferdi's menu, and navigate to **Ordnance Drops**.
 3. All functions are wrapped as `local`, making this a self-contained, drop-and-play script.
 
 ### 🔹 Method 2: ESS OnLoad Framework (Global API)
-**File:** `SpawnOrdinanceFunctions.lua`  
+**File:** `SpawnOrdnanceFunctions.lua`  
 **Best for:** Developers or advanced users who want to call ordnance functions from other scripts or custom menus.
 
-1. Place `SpawnOrdinanceFunctions.lua` in your Ess `mods/` or `OnLoad/` directory.
+1. Place `SpawnOrdnanceFunctions.lua` in your Ess `mods/` or `OnLoad/` directory.
 2. Functions are intentionally **not prefixed with `local`**, exposing them to the global `_G` namespace.
 3. Other scripts can now call them directly. Example:
    ```lua
