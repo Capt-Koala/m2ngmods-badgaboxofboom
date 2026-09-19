@@ -1,8 +1,3 @@
--- ============================================================
--- ORDNANCE DROPS
--- ============================================================
-
-
 local ORDD_TOKEN = 0
 
 
@@ -664,6 +659,30 @@ local function equipDesignator(ord)
       lastError("equip designator")
       toast("Designator equip failed")
       ORDD_TOKEN = ORDD_TOKEN + 1
+    end
+  end)
+end
+
+
+-- ============================================================
+-- MENU
+-- ============================================================
+
+
+if menu and type(menu.category) == "function" then
+  menu:category("Ordnance Drops", function(cnt)
+    cnt:entry("Clear Designator", function()
+      ORDD_TOKEN = ORDD_TOKEN + 1
+      clearDesignator(ORDD_TOKEN)
+      inputBurst()
+      toast("Designator cleared")
+    end)
+
+    for i = 1, #ORDNANCE do
+      local ord = ORDNANCE[i]
+      cnt:entry(ord.label, function()
+        equipDesignator(ord)
+      end)
     end
   end)
 end
